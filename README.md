@@ -8,4 +8,5 @@ We will create a pom maven project with some microservice modules:
  - users (rest api to create an user with uuid, name, surname, email, creation_date)
  - products (rest api to create an product with uuid, name, category, creation_date)
  - actions (rest api to create a join object between user, product, with action "like, dislike")
+ - validator (kafka client to analyze actions, querying the rest api of users,products
  
